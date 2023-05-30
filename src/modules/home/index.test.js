@@ -1,6 +1,5 @@
 import {render, screen, fireEvent} from '@testing-library/react-native';
 import Home from '.';
-import renderer from 'react-test-renderer';
 
 test('invalid Email', () => {
   render(<Home/>)
